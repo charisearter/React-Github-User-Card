@@ -11,7 +11,7 @@ class Users extends Component {
         return <Spinner />
     }else {
     return (
-      <div style={userStyle}>
+      <div style={userStyle} className='all-center'>
         {/* //looping through each individual user in state and passing in as prop to UserItem */}
         {this.props.users.map(user => (
           <UserItem key={user.id} user={user} />
