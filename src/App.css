@@ -2,11 +2,11 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #3532a7;
-  --dark-color: #333333;
-  --light-color: #eae7ed;
-  --danger-color: #3532a7;
-  --success-color: #646ecb;
+  --primary-color: #044a42;
+  --dark-color: #062925;
+  --light-color: #b8e1dd;
+  --danger-color: #062925;
+  --success-color: #3a9188;
 }
 
 * {
@@ -112,7 +112,7 @@ img {
 /* Cards */
 .card {
   padding: 1rem;
-  border: #b793e6 1px dotted;
+  border: #3a9188 1px dotted;
   margin: 0.7rem 0;
   border-radius: 2px;
 }
@@ -331,7 +331,7 @@ textarea {
   width: 100%;
   padding: 0.4rem;
   font-size: 1.2rem;
-  border: 1px solid #3532a7;
+  border: 1px solid #044a42;
   border-radius: 5px;
 }
 

@@ -103,6 +103,6 @@ const blueGreenTheme = {
   grade3: '#044a42',
   grade2: '#3a9188',
   grade1: '#b8e1dd',
-  grade0: '#fefefe',
+  grade0: '#d6efc7',
 };
 export default User
