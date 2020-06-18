@@ -3,7 +3,7 @@ import Spinner from './Spinner';
 import Follower from './follows/Follower';
 import { Link } from 'react-router-dom';
 import GitHubCalendar from 'react-github-calendar';
-
+//Single user
 
 export class User extends Component {
   componentDidMount() {
@@ -76,7 +76,7 @@ export class User extends Component {
       </div>
     <div className='card all-center'>
       
-   <GitHubCalendar username={login} fullYear={false} theme= {purpleTheme} />
+   <GitHubCalendar username={login} fullYear={false} theme= {blueGreenTheme} />
     </div>
 
       <div style={userStyle}>
@@ -96,13 +96,13 @@ const userStyle = {
 
 }
 
-const purpleTheme = {
+const blueGreenTheme = {
   background: 'transparent',
   text: '#000',
-  grade4: '#400082',
-  grade3: '#7e0cf5',
-  grade2: '#cd4dcc',
-  grade1: '#b793e6',
-  grade0: '#eae7ed',
+  grade4: '#062925',
+  grade3: '#044a42',
+  grade2: '#3a9188',
+  grade1: '#b8e1dd',
+  grade0: '#fefefe',
 };
 export default User
